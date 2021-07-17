@@ -1,365 +1,389 @@
 @import url('https://fonts.googleapis.com/css2?family=Festive&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed&family=Kalam:wght@300&family=Merienda&display=swap');
-
 * {
-  margin: 0;
-  padding: 0;
-  /*box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /*box-sizing: border-box;
   border: 1px solid red;*/
 }
 
 .Welcome {
-  background-image: url(HomeBack.png);
-  height: 100vh;
-  width: 100%;
+    background-image: url(HomeBack.png);
+    height: 100vh;
+    width: 100%;
 }
 
-.header{
+.header {
     display: flex;
     width: 100%;
     height: 10%;
 }
 
-.header img{
-  margin-top: 20px;
-  margin-left: 30px;
-  height: 100%;    
-} 
+.header img {
+    margin-top: 20px;
+    margin-left: 30px;
+    height: 100%;
+}
 
 .header .ContactUs {
-  height: 100%;
-  width: 370px;
-  display: flex;
-  margin-left: auto;
-  margin-right: 0px;
-  margin-top: 40px;
+    height: 100%;
+    width: 370px;
+    display: flex;
+    margin-left: auto;
+    margin-right: 0px;
+    margin-top: 40px;
 }
 
-.header .ContactUs img{
-  height: 50%; 
+.header .ContactUs img {
+    height: 50%;
 }
 
-.nav{
-  display: flex;
-  width: 580px;
-  margin-top: 20px;
-  margin-left: auto;
-  margin-right: 0px;
-  justify-content:space-between;
+.nav {
+    display: flex;
+    width: 580px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: 0px;
+    justify-content: space-between;
 }
 
-.nav ul li{
-  list-style: none;
-  display: inline-block;
-  margin:0 30px;
+.nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 30px;
 }
 
-
-.Second{
-  width: 100%;
-  height: 80%;
-  display: flex;
+.Second {
+    width: 100%;
+    height: 80%;
+    display: flex;
 }
 
-.Second .Intro{
-  width: 50%;
-  margin-top: 150px;
-  margin-left: 60px;
+.Second .Intro {
+    width: 50%;
+    margin-top: 150px;
+    margin-left: 60px;
 }
 
-.Intro h3{
-  font-family: 'Pacifico', cursive;
-  font-weight: bold;
-}
-.Intro h1{
-  font-family: 'Pacifico', cursive;
-  font-size: 70px;
-}
-.Intro h2{
-  font-family: 'Pacifico', cursive;
-  font-size: 50px;
+.Intro h3 {
+    font-family: 'Pacifico', cursive;
+    font-weight: bold;
 }
 
-.Second .Imgs{
-  width: 50%;
-  display: flex;
-  margin-left: 90px;
+.Intro h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 70px;
 }
 
-
-
-
-.Imgs .snacks{
-  margin-top: 110px;
-}
-.snacks img{
-  height: 350px;
+.Intro h2 {
+    font-family: 'Pacifico', cursive;
+    font-size: 50px;
 }
 
-
-.Imgs .coldrink{
-  margin-top: 80px;
-}
-.coldrink img{
-  height: 400px;
+.Second .Imgs {
+    width: 50%;
+    display: flex;
+    margin-left: 90px;
 }
 
-.Imgs .Burger{
-  z-index: 998;
-  position: absolute;
-  margin-top: 180px;
-  margin-left: 130px;
+.Imgs .snacks {
+    margin-top: 110px;
 }
 
-.Burger img{
-  height: 300px;
-  width: 300px;
+.snacks img {
+    height: 350px;
 }
 
-.price{
-  margin-top: 370px;
-  position: absolute;
-  z-index: 999;
+.Imgs .coldrink {
+    margin-top: 80px;
 }
 
-.price img{
-  width: 130px;
-  margin-left: 40px;
+.coldrink img {
+    height: 400px;
 }
 
-
-.SecondPhase{
-  height: 500px;
-  width: 100%;
-  display: flex;
+.Imgs .Burger {
+    z-index: 998;
+    position: absolute;
+    margin-top: 180px;
+    margin-left: 130px;
 }
 
-
-.SecondPhase .one{ 
-  width: 50%;
-  height: 500px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.SecondPhase .one img{
-  width: 80%;
-  height: 60%;  
+.Burger img {
+    height: 300px;
+    width: 300px;
 }
 
-
-.SecondPhase .two{
-  width: 50%;
-  height: 500px;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-
-}
-.SecondPhase .two img{
-  width: 80%;
-  height: 30%;
-  margin: 5px;
+.price {
+    margin-top: 370px;
+    position: absolute;
+    z-index: 999;
 }
 
-.tasty{
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.price img {
+    width: 130px;
+    margin-left: 40px;
 }
 
-.ThirdPhase h1{
-  font-family: 'Pacifico', cursive;
+.SecondPhase {
+    height: 500px;
+    width: 100%;
+    display: flex;
 }
 
-.ThirdPhase{
-  
+.SecondPhase .one {
+    width: 50%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.ThirdPhase .P-desc{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.ThirdPhase .desc{
-  font-family: 'Fira Sans Condensed', sans-serif;
-  width: 80%;
+.SecondPhase .one img {
+    width: 80%;
+    height: 60%;
 }
 
-.cards{
-  width: 100%;
-  height: 400px;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 50px;
+.SecondPhase .two {
+    width: 50%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
 }
 
-.cards img{
-  width: 70%;
-  height: 300px;
-  
+.SecondPhase .two img {
+    width: 80%;
+    height: 30%;
+    margin: 5px;
 }
 
-.cards h3{
-  font-family: 'Merienda', cursive;
+.tasty {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.cards p{
-  font-family: 'Kalam', cursive;
+.ThirdPhase h1 {
+    font-family: 'Pacifico', cursive;
 }
 
-.cards input[type="button"]{
-  position:relative;
+.ThirdPhase {}
 
-			padding: 10px 50px;;
-			margin-top: 15px;
-			color:black;
-			background:#2196f3;
-			border-radius:30px;
-			text-decoration:none;
-			letter-spacing: 1px;
+.ThirdPhase .P-desc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-
-
-.ForthPhase{
-  margin-top: 140px;
-  width: 100%;
-  height: 400px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.ThirdPhase .desc {
+    font-family: 'Fira Sans Condensed', sans-serif;
+    width: 80%;
 }
 
-.ForthPhase .child{
-  
-  width: 80%;
-  height: 300px;
-  display: flex;
-  box-shadow: 5px 10px 8px 10px #888888;
-}
-.ForthPhase .child .descr{
-  height: 300px;
-  width: 50%;
+.cards {
+    width: 100%;
+    height: 400px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 50px;
 }
 
-.ForthPhase .child .imgs{
-  height: 300px;
-  width: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.ForthPhase .child .imgs img{
-  width: 80%;
-  height: 80%;
+.cards img {
+    width: 70%;
+    height: 300px;
 }
 
-.ForthPhase .child .descr h1,h3{
-  font-family: 'Fugaz One', cursive;
-  margin-left: 20px;
-}
-.ForthPhase .child .descr p{
-  margin-left: 20px;
-  font-family: 'Playball', cursive;
+.cards h3 {
+    font-family: 'Merienda', cursive;
 }
 
-
-.FifthPhase{
-  width: 100%;
-  height: 400px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-image: url(FifthBack.png);
-  background-size: 100% 100%;
+.cards p {
+    font-family: 'Kalam', cursive;
 }
 
-
-.FifthPhase .reservation{
-  width: 60%;
-  height: 400px;
-  
+.cards input[type="button"] {
+    position: relative;
+    padding: 10px 50px;
+    ;
+    margin-top: 15px;
+    color: black;
+    background: #2196f3;
+    border-radius: 30px;
+    text-decoration: none;
+    letter-spacing: 1px;
 }
 
-.reservation h1{
-
+.ForthPhase {
+    margin-top: 140px;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.reservation .resInput{
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
+.ForthPhase .child {
+    width: 80%;
+    height: 300px;
+    display: flex;
+    box-shadow: 5px 10px 8px 10px #888888;
 }
 
-.reservation input{
-  width: 50vh;
-  height: 30px;
-  margin: 15px;
+.ForthPhase .child .descr {
+    height: 300px;
+    width: 50%;
 }
 
-.reservation input[type="button"]{
-  background: red;
-  font-family: 'Playball', cursive;
-  color: white;
+.ForthPhase .child .imgs {
+    height: 300px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+.ForthPhase .child .imgs img {
+    width: 80%;
+    height: 80%;
+}
 
+.ForthPhase .child .descr h1,
+h3 {
+    font-family: 'Fugaz One', cursive;
+    margin-left: 20px;
+}
 
+.ForthPhase .child .descr p {
+    margin-left: 20px;
+    font-family: 'Playball', cursive;
+}
+
+.FifthPhase {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(FifthBack.png);
+    background-size: 100% 100%;
+}
+
+.FifthPhase .reservation {
+    width: 60%;
+    height: 400px;
+}
+
+.reservation h1 {}
+
+.reservation .resInput {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.reservation input {
+    width: 50vh;
+    height: 30px;
+    margin: 15px;
+}
+
+.reservation input[type="button"] {
+    background: red;
+    font-family: 'Playball', cursive;
+    color: white;
+}
 
 
 /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
-.LastPhase{
-  /*display: flex;
+.parentlphase {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.LastPhase {
+    /*display: flex;
   justify-content: center;
   align-items: center; */
-  width: 100%;
-  height: 400px;
-  color: white;
-}
-.LastPhase img{
-  display: flex;
-  flex-direction: column;
-  width: 80%;
-  height: 400px;
-}
-
-.LastPhase .upper{  
-  width: 80%;
-  height: 80%;
-  display: flex;
-}
-.upper .Decsrip{
-  height: 300px;
-  width: 100vh;
-}
-.upper .Decsrip img{
-  width: 40vh;
-  height: 100px;
-  margin-left: 30px;
-}
-.upper .Decsrip pr{
-  color: white;
-  margin-left: 30px;
-}
-.upper .add{
-  margin-left: 90px;
-  width: 100vh;
-  height: 300px;
-}
-.upper .add img{
-  width: 3vh;
-  height: 24px;
-  margin-left: 30px;
+    background-image: url(./Images/LastBack.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 90%, 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 400px;
+    color: white;
 }
 
-.LastPhase .lower{
-  width: 80%;
-  height: 80%;
+
+/* 
+.LastPhase img {
+    border: 1px solid blue;
+    width: 100%;
+    height: 100%;
+} */
+
+.LastPhase .upper {
+    width: 80%;
+    height: 80%;
+    display: flex;
+    align-items: flex-start;
+}
+
+.upper .Decsrip {
+    height: 100%;
+    width: 60%;
+}
+
+.upper .Decsrip img {
+    width: 40vh;
+    height: 80px;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+.upper .Decsrip pr {
+    color: white;
+    margin-left: 30px;
+}
+
+.upper .add {
+    height: 100%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.upper .addsec1 img {
+    width: 4vh;
+    height: 28px;
+}
+
+.addsec1 h5 {
+    margin-left: 10px;
+}
+
+.add .addsec1 {
+    width: 60%;
+    display: flex;
+}
+
+.LastPhase .lower {
+    width: 80%;
+    height: 20%;
+    border: 1px solid red;
+    background-color: green;
 }
